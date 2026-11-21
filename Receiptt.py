@@ -1,21 +1,13 @@
 # Store Order Receipt - Amina's Stationery Store
 
-store_name = "Amina's Stationery Store"
-customer_name = "Chidi Okafor"
+store_name = "Obi's Stationery Store"
+customer_name = "obi john"
 product_name = "A4 Notebook"
 unit_price = 850.00
 items_purchased = 12
 total_stock = 100
 delivery_fee = 500.00
 payment_confirmed = True
-
-print(customer_name)
-
-subtotal = unit_price * items_purchased
-print(subtotal)
-
-subtotal = unit_price * items_purchased
-print(subtotal)
 
 
 # ----- Calculations -----
@@ -30,3 +22,26 @@ if payment_confirmed:
 else:
     payment_status = "Pending"
 print(payment_status)
+
+
+
+# ----- Receipt -----
+print("==============================")
+print(store_name)
+print("ORDER RECEIPT")
+print("==============================")
+print("Customer:", customer_name)
+print("Product:", product_name)
+print("Unit price:", unit_price)
+print("Quantity bought:", items_purchased)
+print("------------------------------")
+print("Subtotal:", subtotal)
+print("Delivery fee:", delivery_fee)
+print("Grand total:", grand_total)
+print("Average per item:", average_cost_per_item)
+print("------------------------------")
+print("Remaining stock:", remaining_stock)
+print("Payment status:", payment_status)
+print("==============================")
+print("Thank you for shopping at", store_name)
+
