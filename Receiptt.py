@@ -1,4 +1,4 @@
-# Store Order Receipt - Amina's Stationery Store
+# Store Order Receipt - obi's Stationery Store
 
 store_name = "Obi's Stationery Store"
 customer_name = "obi john"
